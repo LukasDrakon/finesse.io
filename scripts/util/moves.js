@@ -135,7 +135,8 @@ const MOVES = [
         [[RIGHT, ROTATE_CLOCK, DROP]],
         [[DAS_RIGHT, ROTATE_COUNTER, DROP]],
         [[DAS_RIGHT, ROTATE_CLOCK, DROP]],
-        [[ROTATE_CLOCK, DAS_RIGHT, DROP]][
+        [[ROTATE_CLOCK, DAS_RIGHT, DROP]],
+        [
             [ROTATE_COUNTER, DAS_RIGHT, DROP],
             [ROTATE_CLOCK, DAS_RIGHT, DROP]
         ]
