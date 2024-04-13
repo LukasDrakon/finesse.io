@@ -41,7 +41,11 @@ const MOVES = [
         ],
         // vertical
         [
-        [[ROTATE_COUNTER, DAS_LEFT, DROP]],
+        [
+            [ROTATE_COUNTER, DAS_LEFT, DROP],
+            [DAS_LEFT, ROTATE_COUNTER, DROP],
+            [ROTATE_CLOCK, DAS_LEFT, DROP]
+        ],
         [[DAS_LEFT, ROTATE_CLOCK, DROP]],
         [[ROTATE_COUNTER, LEFT, DROP]],
         [[ROTATE_COUNTER, DROP]],
@@ -52,7 +56,11 @@ const MOVES = [
             [DAS_RIGHT, LEFT, ROTATE_COUNTER, DROP]
         ],
         [[DAS_RIGHT, ROTATE_COUNTER, DROP]],
-        [[ROTATE_CLOCK, DAS_RIGHT, DROP]]
+         [
+            [ROTATE_COUNTER, DAS_RIGHT, DROP],
+            [DAS_RIGHT, ROTATE_CLOCK, DROP],
+            [ROTATE_CLOCK, DAS_RIGHT, DROP]
+        ]
         ]
     ],
     // S-mino
@@ -73,7 +81,11 @@ const MOVES = [
         ],
         // vertical
         [
-        [[ROTATE_COUNTER, DAS_LEFT, DROP]],
+        [
+            [ROTATE_COUNTER, DAS_LEFT, DROP],
+            [DAS_LEFT, ROTATE_COUNTER, DROP],
+            [ROTATE_CLOCK, DAS_LEFT, DROP]
+        ],
         [[DAS_LEFT, ROTATE_CLOCK, DROP]],
         [[ROTATE_COUNTER, LEFT, DROP]],
         [[ROTATE_COUNTER, DROP]],
@@ -84,7 +96,11 @@ const MOVES = [
             [DAS_RIGHT, LEFT, ROTATE_COUNTER, DROP]
         ],
         [[DAS_RIGHT, ROTATE_COUNTER, DROP]],
-        [[ROTATE_CLOCK, DAS_RIGHT, DROP]]
+         [
+            [ROTATE_COUNTER, DAS_RIGHT, DROP],
+            [DAS_RIGHT, ROTATE_CLOCK, DROP],
+            [ROTATE_CLOCK, DAS_RIGHT, DROP]
+        ]
         ]
     ],
     // I-mino
@@ -107,7 +123,10 @@ const MOVES = [
         ],
         // vertical
         [
-        [[ROTATE_COUNTER, DAS_LEFT, DROP]],
+         [
+            [ROTATE_COUNTER, DAS_LEFT, DROP],
+            [ROTATE_CLOCK, DAS_LEFT, DROP]
+        ],
         [[DAS_LEFT, ROTATE_COUNTER, DROP]],
         [[DAS_LEFT, ROTATE_CLOCK, DROP]],
         [[LEFT, ROTATE_COUNTER, DROP]],
@@ -116,7 +135,10 @@ const MOVES = [
         [[RIGHT, ROTATE_CLOCK, DROP]],
         [[DAS_RIGHT, ROTATE_COUNTER, DROP]],
         [[DAS_RIGHT, ROTATE_CLOCK, DROP]],
-        [[ROTATE_CLOCK, DAS_RIGHT, DROP]]
+        [[ROTATE_CLOCK, DAS_RIGHT, DROP]][
+            [ROTATE_COUNTER, DAS_RIGHT, DROP],
+            [ROTATE_CLOCK, DAS_RIGHT, DROP]
+        ]
         ]
     ],
     // T-mino
